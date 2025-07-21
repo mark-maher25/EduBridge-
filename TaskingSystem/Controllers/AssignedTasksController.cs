@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,12 +14,13 @@ namespace TaskingSystem.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly Microsoft.AspNetCore.Hosting.IHostingEnvironment _hostingEnvironment;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-
-        public AssignedTasksController(ApplicationDbContext context, Microsoft.AspNetCore.Hosting.IHostingEnvironment hostingEnvironment)
+        public AssignedTasksController(ApplicationDbContext context, Microsoft.AspNetCore.Hosting.IHostingEnvironment hostingEnvironment , UserManager<ApplicationUser> userManager)
         {
             _context = context;
             _hostingEnvironment = hostingEnvironment;
+            _userManager = userManager;
         }
 
         // GET: AssignedTasks
@@ -107,11 +109,23 @@ namespace TaskingSystem.Controllers
         // GET: AssignedTasks/Create
         public async Task<IActionResult> Create()
         {
-            ViewData["CourseTaskes"] = new SelectList(_context.Courses, "CourseCode", "CourseName");
+            var currentUser = await _userManager.GetUserAsync(User);            // جلب الكورسات اللي الطالب مسجل فيها
+            var enrolledCourses = await _context.StudentCourses
+                .Where(sc => sc.StudentId == currentUser.Id)
+                .Select(sc => sc.CourseCode)
+                .ToListAsync();
 
-            // ViewData["Task"] = new SelectList(_context.AssignmentHeadLines, "AssignmentId", "AssignmentName");
+            // جلب المواد المرتبطة بالكورسات التي سجل فيها الطالب
+            var courses = await _context.Courses
+                .Where(c => enrolledCourses.Contains(c.CourseCode))
+                .ToListAsync();
+
+            // تمرير قائمة الكورسات إلى الـ View
+            ViewData["CourseTaskes"] = new SelectList(courses, "CourseCode", "CourseName");
+
             return View();
         }
+        
 
         public async Task<IActionResult> GetAssignmentHeadLines(string CourseCode)
         {
@@ -256,6 +270,58 @@ namespace TaskingSystem.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        // عرض التاسكات الخاصة بكورس معين
+        [HttpGet]
+        public async Task<IActionResult> TasksByCourse(string courseId, int? assignmentHeadLineId = null)
+        {
+            var tasksQuery = _context.AssignedTasks
+                .Include(a => a.AssignedTaskStudent)
+                .Include(a => a.AssignmentHeadLine)
+                .Where(a => a.AssignmentHeadLine.CourseCode == courseId);
+
+            if (assignmentHeadLineId.HasValue)
+            {
+                tasksQuery = tasksQuery.Where(a => a.AssignmentHeadLine.AssignmentId == assignmentHeadLineId.Value);
+            }
+
+            var tasks = await tasksQuery
+                .OrderByDescending(a => a.AssignedTaskDate)
+                .ToListAsync();
+
+            if (User.IsInRole(Roles.SuperAdmin))
+            {
+                // لو سوبر أدمن، اعرض كل الهيدلاين من الداتابيز (مش مقيد بالكورس)
+                var allHeadLines = await _context.AssignmentHeadLines
+                    .Select(h => new { h.AssignmentId, h.AssignmentName })
+                    .ToListAsync();
+
+                ViewBag.HeadLines = new SelectList(allHeadLines, "AssignmentId", "AssignmentName");
+            }
+            else if (User.IsInRole(Roles.Manger))
+            {
+                // لو دكتور، اعرض الهيدلاينز الخاصة بالكورس فقط
+                var professorHeadLines = await _context.AssignmentHeadLines
+                    .Where(h => h.CourseCode == courseId)
+                    .Select(h => new { h.AssignmentId, h.AssignmentName })
+                    .ToListAsync();
+
+                ViewBag.HeadLines = new SelectList(professorHeadLines, "AssignmentId", "AssignmentName");
+            }
+            else
+            {
+                ViewBag.HeadLines = new SelectList(Enumerable.Empty<SelectListItem>()); // لو دور تاني، خلي القائمة فاضية
+            }
+
+            ViewData["Courses"] = new SelectList(_context.Courses, "CourseCode", "CourseName");
+            ViewBag.SelectedCourse = courseId;
+            ViewBag.SelectedAssignmentId = assignmentHeadLineId;
+
+            return View("Index", tasks);
+        }
+
+
+
+
 
         private bool AssignedTaskExists(int id)
         {

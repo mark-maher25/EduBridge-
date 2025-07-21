@@ -17,7 +17,7 @@ namespace TaskingSystem.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.1")
+                .HasAnnotation("ProductVersion", "8.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -350,6 +350,42 @@ namespace TaskingSystem.Migrations
                     b.ToTable("Themes");
                 });
 
+            modelBuilder.Entity("TaskingSystem.Models.lecture", b =>
+                {
+                    b.Property<int>("lectureId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("lectureId"));
+
+                    b.Property<string>("CourseCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CourseCode1")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ProfessorId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("lectureName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("lectureURL")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("lectureId");
+
+                    b.HasIndex("CourseCode1");
+
+                    b.HasIndex("ProfessorId");
+
+                    b.ToTable("lectures");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -467,6 +503,23 @@ namespace TaskingSystem.Migrations
                     b.Navigation("Course");
 
                     b.Navigation("Student");
+                });
+
+            modelBuilder.Entity("TaskingSystem.Models.lecture", b =>
+                {
+                    b.HasOne("TaskingSystem.Models.Course", "Course")
+                        .WithMany()
+                        .HasForeignKey("CourseCode1");
+
+                    b.HasOne("TaskingSystem.Models.ApplicationUser", "Professor")
+                        .WithMany()
+                        .HasForeignKey("ProfessorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+
+                    b.Navigation("Professor");
                 });
 
             modelBuilder.Entity("TaskingSystem.Models.ApplicationUser", b =>

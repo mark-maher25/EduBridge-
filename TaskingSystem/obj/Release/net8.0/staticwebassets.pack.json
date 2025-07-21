@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\TaskingSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TaskingSystem.qfrwe73n9j.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\AssignmentFiles\\12_944e.PNG",
+      "PackagePath": "staticwebassets\\AssignmentFiles\\12_944e.PNG"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\AssignmentFiles\\32221-8-3d-image_c1c3.png",
+      "PackagePath": "staticwebassets\\AssignmentFiles\\32221-8-3d-image_c1c3.png"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\StaticHTML\\MailTemplate.html",
+      "PackagePath": "staticwebassets\\StaticHTML\\MailTemplate.html"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (1).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (1).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (10).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (10).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (11).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (11).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (12).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (12).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (13).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (13).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (14).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (14).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (15).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (15).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (16).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (16).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (17).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (17).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (18).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (18).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (19).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (19).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (2).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (2).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (20).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (20).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (21).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (21).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (22).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (22).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (23).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (23).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (24).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (24).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (25).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (25).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (26).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (26).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (3).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (3).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (4).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (4).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (5).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (5).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (6).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (6).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (7).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (7).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (8).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (8).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min (9).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (9).css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\images\\Congratulations, Class of 2025!.png",
+      "PackagePath": "staticwebassets\\images\\Congratulations, Class of 2025!.png"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\images\\Tasking-Production.png",
+      "PackagePath": "staticwebassets\\images\\Tasking-Production.png"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\images\\Tasking.png",
+      "PackagePath": "staticwebassets\\images\\Tasking.png"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\images\\avatar-male.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-male.jpg"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\js\\bootbox.js\\bootbox.min.js",
+      "PackagePath": "staticwebassets\\js\\bootbox.js\\bootbox.min.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.TaskingSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.TaskingSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.TaskingSystem.props",
+      "PackagePath": "build\\TaskingSystem.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TaskingSystem.props",
+      "PackagePath": "buildMultiTargeting\\TaskingSystem.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.TaskingSystem.props",
+      "PackagePath": "buildTransitive\\TaskingSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

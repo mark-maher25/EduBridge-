@@ -20,19 +20,40 @@
             <div class="form-group mt-4">
                 <label asp-for="AssignmentDate" class="control-label"></label>
 
-                 <input asp-for="AssignmentDate" class="form-control mt-2" />
+                <input asp-for="AssignmentDate" class="form-control mt-2" />
                 <small id="emailHelp" class="form-text text-muted"> let this field empty to set current time.</small>
 
                 <span asp-validation-for="AssignmentDate" class="text-danger"></span>
             </div>
             <div class="form-group mt-4">
                 <label asp-for="ProfessorId" class="control-label">Professor</label>
-                <select asp-for="ProfessorId" class="form-control mt-2" asp-items="ViewBag.ProfessorId"></select>
+
+                @if (User.IsInRole(Roles.SuperAdmin))
+                {
+                    <select asp-for="ProfessorId" class="form-control mt-2" asp-items="ViewBag.ProfessorId"></select>
+                }
+                else
+                {
+                    <input type="hidden" asp-for="ProfessorId" value="@ViewData["ProfessorId"]" />
+                    <input type="text" class="form-control mt-2" value="@ViewData["ProfessorName"]" disabled />
+                }
             </div>
-            <div class="form-group mt-4">
-                <label asp-for="CourseCode" class="control-label"></label>
-                <select asp-for="CourseCode" class="form-control mt-2" asp-items="ViewBag.CourseCode"></select>
-            </div>
+
+            @if (User.IsInRole("SuperAdmin"))
+            {
+                <div class="form-group mt-4">
+                    <label asp-for="CourseCode" class="control-label">Course</label>
+                    <select asp-for="CourseCode" class="form-control mt-2" asp-items="ViewBag.CourseCode"></select>
+                </div>
+            }
+            else
+            {
+                <div class="form-group mt-4">
+                    <label asp-for="CourseCode" class="control-label">Course</label>
+                    <select asp-for="CourseCode" class="form-control mt-2" asp-items="ViewBag.CourseCode"></select>
+                </div>
+            }
+
             <div class="form-group mt-4">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
@@ -45,5 +66,7 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

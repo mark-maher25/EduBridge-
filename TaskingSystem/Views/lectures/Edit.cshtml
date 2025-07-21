@@ -1,0 +1,59 @@
+﻿@model TaskingSystem.Models.lecture
+
+@{
+    ViewData["Title"] = "Edit Lecture";
+}
+
+<h1>Edit Lecture</h1>
+
+<h4>Lecture</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="lectureId" />
+
+            <div class="form-group">
+                <label asp-for="lectureName" class="control-label"></label>
+                <input asp-for="lectureName" class="form-control" />
+                <span asp-validation-for="lectureName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CourseCode" class="control-label"></label>
+                <select asp-for="CourseCode" class="form-control" asp-items="ViewBag.Courses"></select>
+                <span asp-validation-for="CourseCode" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="lectureFile" class="control-label">Upload New File (optional)</label>
+                <input asp-for="lectureFile" type="file" class="form-control" />
+                <span asp-validation-for="lectureFile" class="text-danger"></span>
+            </div>
+
+            @if (TempData["CurrentLectureFile"] != null)
+            {
+                <div class="form-group">
+                    <label>Current File:</label>
+                    <p>@TempData["CurrentLectureFile"]</p>
+                </div>
+            }
+
+            <div class="form-group">
+                <input type="submit" value="Save Changes" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

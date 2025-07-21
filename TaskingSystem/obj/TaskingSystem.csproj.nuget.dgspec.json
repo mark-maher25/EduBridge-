@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\TaskingSystem.csproj": {}
+    "C:\\Users\\D E L L\\Desktop\\ah\\EduBridge\\EduBridge\\TaskingSystem\\TaskingSystem.csproj": {}
   },
   "projects": {
-    "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\TaskingSystem.csproj": {
+    "C:\\Users\\D E L L\\Desktop\\ah\\EduBridge\\EduBridge\\TaskingSystem\\TaskingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\TaskingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\D E L L\\Desktop\\ah\\EduBridge\\EduBridge\\TaskingSystem\\TaskingSystem.csproj",
         "projectName": "TaskingSystem",
-        "projectPath": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\TaskingSystem.csproj",
-        "packagesPath": "C:\\Users\\Youssef\\.nuget\\packages\\",
-        "outputPath": "E:\\Windows\\Underway\\Project\\TaskingSystem\\TaskingSystem\\obj\\",
+        "projectPath": "C:\\Users\\D E L L\\Desktop\\ah\\EduBridge\\EduBridge\\TaskingSystem\\TaskingSystem.csproj",
+        "packagesPath": "C:\\Users\\D E L L\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\D E L L\\Desktop\\ah\\EduBridge\\EduBridge\\TaskingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Youssef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\D E L L\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -38,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -69,12 +75,14 @@
               "version": "[8.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
@@ -96,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

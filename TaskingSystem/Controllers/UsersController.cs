@@ -23,6 +23,18 @@ namespace TaskingSystem.Controllers
 
         public async Task<IActionResult> Index()
         {
+            //var users = await _userManager.Users.Select(user => new UserViewModel
+            //{
+            //    Id = user.Id,
+            //    FirstName = user.FirstName,
+            //    LastName = user.LastName,
+            //    UserName = user.UserName,
+            //    Email = user.Email,
+            //    Roles = _userManager.GetRolesAsync(new ApplicationUser { Id = user.Id }).Result
+
+            //}).ToListAsync();
+
+            // Fetch users
             var users = await _userManager.Users.Select(user => new UserViewModel
             {
                 Id = user.Id,
@@ -30,9 +42,13 @@ namespace TaskingSystem.Controllers
                 LastName = user.LastName,
                 UserName = user.UserName,
                 Email = user.Email,
-                Roles = _userManager.GetRolesAsync(new ApplicationUser { Id = user.Id }).Result
-
             }).ToListAsync();
+
+            // Fetch roles for each user asynchronously
+            foreach (var user in users)
+            {
+                user.Roles = await _userManager.GetRolesAsync(new ApplicationUser { Id = user.Id });
+            }
 
             return View(users);
         }

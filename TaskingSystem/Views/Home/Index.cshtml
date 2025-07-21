@@ -1,8 +1,137 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<style>
+    body {
+        background-color: #f9f9fc;
+        margin: 0;
+    }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    .hero-section {
+        min-height: 100vh;
+        padding: 60px 20px;
+        text-align: center;
+    }
+</style>
+<style>
+    .hero-section {
+        padding: 60px 20px;
+        background-color: #f9f9fc;
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #1a1a1a;
+    }
+
+    .hero-section p {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 30px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .btn-primary-custom {
+        background-color: #6c63ff;
+        color: #fff;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 6px;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .features {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
+    .feature-box {
+        background: white;
+        border-radius: 10px;
+        padding: 25px;
+        margin: 15px;
+        width: 300px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        text-align: left;
+    }
+
+    .feature-box h4 {
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .feature-box p {
+        color: #666;
+        font-size: 14px;
+    }
+
+    .feature-icon {
+        font-size: 30px;
+        color: #6c63ff;
+        margin-bottom: 15px;
+    }
+
+    .hero-image {
+        max-width: 500px;
+        margin: 30px auto;
+    }
+
+    media (max-width: 768px) {
+        .features {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero-image {
+            width: 90%;
+        }
+    }
+</style>
+
+<div class="hero-section">
+    
+
+    <div class="hero-image">
+        <img src="~/images/logo1.png" alt="Business growth illustration" style="width: 100%; border-radius: 10px;" />
+    </div>
+
+    <div class="features">
+        <div class="feature-box">
+            <div class="feature-icon">📚</div>
+            <h4>Lecture Management</h4>
+            <p>Professors can upload lectures and share them with all students instantly from one place.</p>
+        </div>
+        <div class="feature-box">
+            <div class="feature-icon">📝</div>
+            <h4>Task Assignments</h4>
+            <p>Set headlines for each lecture and monitor student submissions easily and efficiently.</p>
+        </div>
+        <div class="feature-box">
+            <div class="feature-icon">🚀</div>
+            <h4>Student Submissions</h4>
+            <p>Students can view uploaded lectures and submit their assignments quickly with a simple interface.</p>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; gap: 40px; margin-top: 50px;">
+        <div class="feature-box" style="text-align: center; max-width: 300px;">
+            <div class="feature-icon" style="font-size: 40px;">📅</div>
+            <h4>Exam Schedule</h4>
+            <p>Click below to view or download the full exam timetable in PDF format.</p>
+            <a class="btn-primary-custom" href="~/files/exam-schedule.pdf" target="_blank" style="margin-top: 15px; display: inline-block;">View PDF</a>
+        </div>
+
+        <div class="feature-box" style="text-align: center; max-width: 300px;">
+            <div class="feature-icon" style="font-size: 40px;">📖</div>
+            <h4>Lecture Schedule</h4>
+            <p>Click below to view or download the full lecture timetable in PDF format.</p>
+            <a class="btn-primary-custom" href="~/files/lecture-schedule.pdf" target="_blank" style="margin-top: 15px; display: inline-block;">View PDF</a>
+        </div>
+    </div>
+
+
 </div>

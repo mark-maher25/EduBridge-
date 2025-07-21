@@ -1,0 +1,186 @@
+:root{
+    --font: font-family:"Roboto", sans-serif;
+    --accent-colr:#0d81fd53;
+     --surface-color: #ffffff;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* section::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.9;
+
+} */
+section{
+    background: linear-gradient(135deg, var(--accent-colr) , white); 
+
+}
+
+.logo{
+    width: 170px;
+    margin-left: 16px;
+    margin-top: 5px;
+}
+.nav{
+    justify-content: flex-end;
+    margin: 0px 40px 0px 0px;
+}
+nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: #3a59d15c;
+    */background-color: var(--surface-color);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    position: sticky;
+    top: 0px;
+    transform: translateY(18px);
+    -webkit-transform: translateY(18px);
+    -moz-transform: translateY(18px);
+    -ms-transform: translateY(18px);
+    -o-transform: translateY(18px);
+}
+.nav-link{
+    font-size: 20px;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    display: inline-block;
+   font-family: "Poetsen One", sans-serif;
+   color: #3D365C;
+   margin-top: 0px;
+}
+span{
+    color: #3A59D1;
+}
+.main{
+     width: 653px;
+    position: relative;
+    bottom: 190px;
+    left: 800px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move{
+    0%{
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+}
+    25%{
+        transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -o-transform: translateY(10px);
+}
+50%{
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+75%{
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+}
+100%{
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+}
+h1{
+    font-family: "Poetsen One", sans-serif;
+    /* color: #00008bd4; */
+    color: #3e6389;
+    letter-spacing: 2px;
+    line-height: 50px;
+    /* white-space: nowrap;
+    overflow: hidden;
+    max-width: 370px;
+    border-right: 3px solid blue;
+    animation-name: text;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+
+}
+
+/* @keyframes text{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 370px;
+        border-right: 3px solid transparent;
+    }
+} */
+main{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    top: 197px;
+    left: 40px;
+}
+.par{
+    font-size: 20px;
+    margin: 10px 0px 0px;
+    font-family:var(--font);
+    color: rgb(91, 89, 89);
+}
+.btn2{
+     width: 200px;
+     border: 1px solid #3a59d15c;
+     background-color: transparent;
+     margin: 20px 0px 0px 0px;
+     border-radius:25px;
+     -webkit-border-radius:25px;
+     -moz-border-radius:25px;
+     -ms-border-radius:25px;
+     -o-border-radius:25px;
+     /* background-color:#3a59d15c; */
+     background-color: #3f7dbd;
+     font-family: var(--font);
+     font-weight: 500;
+     letter-spacing: 2px;
+     font-size: 18px;
+     padding: 10px;
+     transition: 1s background-color ease;
+     -webkit-transition: 1s background-color ease;
+     -moz-transition: 1s background-color ease;
+     -ms-transition: 1s background-color ease;
+     -o-transition: 1s background-color ease;
+}
+.btn2:hover{
+    background-color: #3A59D1;
+}

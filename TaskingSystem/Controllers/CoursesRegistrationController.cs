@@ -22,30 +22,84 @@ namespace TaskingSystem.Controllers
         {
             if (User.IsInRole(Roles.SuperAdmin))
             {
-                var Context = await _context.StudentsCourses.Include(s => s.Course).Include(s => s.Student).ToListAsync();
-                return View(Context);
+                var studentsCourses = await _context.StudentsCourses
+                    .Include(s => s.Course)
+                    .Include(s => s.Student)
+                    .ToListAsync();
+
+                return View(studentsCourses);
             }
-            var userId = await _context.Users.Where(a => a.UserName == User.Identity.Name).Select(a => a.Id).SingleOrDefaultAsync();
-            var applicationDbContext = _context.StudentsCourses.Where(a => a.StudentId == userId).Include(s => s.Course).Include(s => s.Student);
-            return View(await applicationDbContext.ToListAsync());
+
+            var userId = await _context.Users
+                .Where(a => a.UserName == User.Identity.Name)
+                .Select(a => a.Id)
+                .FirstOrDefaultAsync();
+
+            if (userId == null)
+            {
+                return NotFound(); // or handle however is appropriate
+            }
+
+            if (User.IsInRole(Roles.Manger))
+            {
+                var studentCourses = await _context.StudentsCourses
+                .Include(s => s.Course)
+                .Include(s => s.Student)
+                .Where(a => a.Course.ProfessorId == userId)
+                .ToListAsync();
+
+                return View(studentCourses);
+            }
+            else
+            {
+                var studentCourses = _context.StudentsCourses
+                    .Include(s => s.Student)
+                            .Include(sc => sc.Course)
+                            .ThenInclude(p => p.Professor)
+                            .Where(sc => sc.StudentId == userId);
+
+                return View(studentCourses);
+
+            }
+
+
         }
 
+
         // GET: CoursesRegistration/Create
-        [Authorize(Roles = Roles.User)]
+        [Authorize(Roles = Roles.SuperAdmin)]
         public IActionResult Create()
         {
             ViewData["CourseCode"] = new SelectList(_context.Courses, "CourseCode", "CourseCode");
             // ViewData["StudentId"] = new SelectList(_context.Users, "Id", "UserName");
-            ViewData["StudentId"] = new SelectList(_context.Users.Where(a => a.UserName == User.Identity.Name), "Id", "UserName");
+            ViewData["StudentId"] = new SelectList(_context.Users
+                , "Id", "UserName");
             return View();
         }
+        public async Task<IActionResult> SearchByStudent(string searchString)
+        {
+            var registrations = _context.StudentsCourses
+    .Include(r => r.Student)
+    .Include(r => r.Course)
+    .AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                registrations = registrations
+                    .Where(r => r.Student.UserName.Contains(searchString));
+            }
+
+            var result = await registrations.ToListAsync();
+            return View("Index", result); // نعرض نفس صفحة Index بالبيانات المتفلترة
+        }
+
 
         // POST: CoursesRegistration/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = Roles.User)]
+        [Authorize(Roles = Roles.SuperAdmin)]
         public async Task<IActionResult> Create([Bind("StudentId,CourseCode")] StudentsCourses studentsCourses)
         {
             if (ModelState.IsValid)
@@ -64,7 +118,7 @@ namespace TaskingSystem.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["CourseCode"] = new SelectList(_context.Courses, "CourseCode", "CourseCode", studentsCourses.CourseCode);
-            ViewData["StudentId"] = new SelectList(_context.Users.Where(a => a.UserName == User.Identity.Name), "Id", "UserName", studentsCourses.StudentId);
+            ViewData["StudentId"] = new SelectList(_context.Users, "Id", "UserName", studentsCourses.StudentId);
             return View(studentsCourses);
         }
 

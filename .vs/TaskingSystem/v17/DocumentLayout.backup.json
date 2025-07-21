@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\D E L L\\Desktop\\ah\\\u0645\u0634\u0631\u0648\u0639\\EduBridge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EEFBA9-4F07-496A-8C1E-11D97BDF6707}|TaskingSystem\\TaskingSystem.csproj|c:\\users\\d e l l\\desktop\\ah\\\u0645\u0634\u0631\u0648\u0639\\edubridge\\taskingsystem\\views\\lectures\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D3EEFBA9-4F07-496A-8C1E-11D97BDF6707}|TaskingSystem\\TaskingSystem.csproj|solutionrelative:taskingsystem\\views\\lectures\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EEFBA9-4F07-496A-8C1E-11D97BDF6707}|TaskingSystem\\TaskingSystem.csproj|c:\\users\\d e l l\\desktop\\ah\\\u0645\u0634\u0631\u0648\u0639\\edubridge\\taskingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EEFBA9-4F07-496A-8C1E-11D97BDF6707}|TaskingSystem\\TaskingSystem.csproj|solutionrelative:taskingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EEFBA9-4F07-496A-8C1E-11D97BDF6707}|TaskingSystem\\TaskingSystem.csproj|c:\\users\\d e l l\\desktop\\ah\\\u0645\u0634\u0631\u0648\u0639\\edubridge\\taskingsystem\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D3EEFBA9-4F07-496A-8C1E-11D97BDF6707}|TaskingSystem\\TaskingSystem.csproj|solutionrelative:taskingsystem\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\D E L L\\Desktop\\ah\\\u0645\u0634\u0631\u0648\u0639\\EduBridge\\TaskingSystem\\Views\\lectures\\Create.cshtml",
+              "RelativeDocumentMoniker": "TaskingSystem\\Views\\lectures\\Create.cshtml",
+              "ToolTip": "C:\\Users\\D E L L\\Desktop\\ah\\\u0645\u0634\u0631\u0648\u0639\\EduBridge\\TaskingSystem\\Views\\lectures\\Create.cshtml",
+              "RelativeToolTip": "TaskingSystem\\Views\\lectures\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T20:04:16.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\D E L L\\Desktop\\ah\\\u0645\u0634\u0631\u0648\u0639\\EduBridge\\TaskingSystem\\Program.cs",
+              "RelativeDocumentMoniker": "TaskingSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\D E L L\\Desktop\\ah\\\u0645\u0634\u0631\u0648\u0639\\EduBridge\\TaskingSystem\\Program.cs",
+              "RelativeToolTip": "TaskingSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T20:36:35.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\D E L L\\Desktop\\ah\\\u0645\u0634\u0631\u0648\u0639\\EduBridge\\TaskingSystem\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TaskingSystem\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\D E L L\\Desktop\\ah\\\u0645\u0634\u0631\u0648\u0639\\EduBridge\\TaskingSystem\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "TaskingSystem\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvyIAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T19:09:41.123Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 130,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

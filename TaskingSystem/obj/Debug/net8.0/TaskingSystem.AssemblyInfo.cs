@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskingSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c47280c2f38a0b4986fc9d823b19ad6854e3ff02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbf5511a757e9f9eb6859033079bf7f8e738299f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskingSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskingSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

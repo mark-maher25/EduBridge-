@@ -1,64 +1,528 @@
 ﻿@model IEnumerable<TaskingSystem.Models.Course>
-
 @{
     ViewData["Title"] = "Courses";
 }
 
-<h1>Courses</h1>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-<p>
-    <a class="btn btn-primary mt-4" asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.CourseName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Professor)
-            </th>
-            <th>
-                Actions
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CourseName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Professor.UserName)
-                </td>
-                <td>
-                    <a id="tasksButton" class="btn btn-warning btn-sm" asp-action="Index" asp-controller="AssignedTasks" asp-route-course="@item.CourseCode">Tasks</a> |
-                    <a class="btn btn-primary btn-sm " asp-action="Edit" asp-route-id="@item.CourseCode">Edit</a> |
-                    <a class="btn btn-dark btn-sm " asp-action="Details" asp-route-id="@item.CourseCode">Details</a> |
-                    <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.CourseCode">Delete</a>
+    body {
+        font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: transparent;
+        min-height: 100vh;
+    }
 
-                    <form id="tasksForm" action="/AssignedTasks/Index" method="get">
-                        <input type="hidden" name="course" id="courseInput" value="@item.CourseCode">
-                    </form>
+    .dashboard-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 20px;
+    }
 
-                    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-                    <script>
-                        $(document).ready(function () {
-                            // Attach a click event to the button
-                            $("#tasksButton").on("click", function () {
-                                // Set the value of the hidden input field in the form
-                                $("#courseInput").val($(this).data("course"));
+    .header-section {
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        backdrop-filter: blur(10px);
+        margin-bottom: 30px;
+    }
 
-                                // Submit the form
-                                $("#tasksForm").submit();
-                            });
-                        });
-                    </script>
+    .header {
+        background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+        color: white;
+        padding: 30px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
 
-                </td>
-            </tr>
+    .header::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: repeating-linear-gradient(
+            45deg,
+            transparent,
+            transparent 10px,
+            rgba(255, 255, 255, 0.1) 10px,
+            rgba(255, 255, 255, 0.1) 20px
+        );
+        animation: movePattern 20s linear infinite;
+    }
+
+    keyframes movePattern {
+        0% { transform: translate(-50%, -50%) rotate(0deg); }
+        100% { transform: translate(-50%, -50%) rotate(360deg); }
+    }
+
+    .header h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .header p {
+        font-size: 1.1rem;
+        opacity: 0.9;
+        position: relative;
+        z-index: 2;
+    }
+
+    .controls-section {
+        background: white;
+        padding: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .search-container {
+        flex: 1;
+        max-width: 400px;
+        position: relative;
+    }
+
+    .search-input {
+        width: 100%;
+        padding: 15px 20px;
+        border: 2px solid #ecf0f1;
+        border-radius: 10px;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+        background: #f8f9fa;
+    }
+
+    .search-input:focus {
+        outline: none;
+        border-color: #3498db;
+        background: white;
+        box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+    }
+
+    .btn-create {
+        background: linear-gradient(135deg, #2ecc71, #27ae60);
+        color: white;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 15px rgba(46, 204, 113, 0.3);
+    }
+
+    .btn-create:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(46, 204, 113, 0.4);
+        color: white;
+        text-decoration: none;
+    }
+
+    .courses-section {
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        backdrop-filter: blur(10px);
+        padding: 30px;
+    }
+
+    .courses-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 25px;
+        margin-top: 20px;
+    }
+
+    .course-card {
+        background: white;
+        border-radius: 15px;
+        padding: 25px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        border: 1px solid #e0e6ed;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 5px;
+        height: 100%;
+        background: var(--card-color, #3498db);
+        transition: width 0.3s ease;
+    }
+
+    .course-card:hover::before {
+        width: 10px;
+    }
+
+    .course-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+    }
+
+    .course-card:nth-child(4n+1) { --card-color: #3498db; }
+    .course-card:nth-child(4n+2) { --card-color: #2ecc71; }
+    .course-card:nth-child(4n+3) { --card-color: #f39c12; }
+    .course-card:nth-child(4n+4) { --card-color: #e74c3c; }
+
+    .course-header {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        flex-grow: 1;
+    }
+
+    .course-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 12px;
+        background: var(--card-color, #3498db);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.5rem;
+        margin-right: 15px;
+        flex-shrink: 0;
+    }
+
+    .course-info {
+        flex: 1;
+    }
+
+    .course-info h5 {
+        color: #2c3e50;
+        font-size: 1.3rem;
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+
+    .course-professor {
+        color: #7f8c8d;
+        font-size: 0.95rem;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .course-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: auto;
+        padding-top: 15px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .btn-lectures {
+        background: linear-gradient(135deg, #3498db, #2980b9);
+        color: white;
+    }
+
+    .btn-lectures:hover {
+        background: linear-gradient(135deg, #2980b9, #21618c);
+        transform: translateY(-2px);
+        color: white;
+        text-decoration: none;
+    }
+
+    .btn-edit {
+        background: linear-gradient(135deg, #f39c12, #e67e22);
+        color: white;
+    }
+
+    .btn-edit:hover {
+        background: linear-gradient(135deg, #e67e22, #d35400);
+        transform: translateY(-2px);
+        color: white;
+        text-decoration: none;
+    }
+
+    .btn-delete {
+        background: linear-gradient(135deg, #e74c3c, #c0392b);
+        color: white;
+    }
+
+    .btn-delete:hover {
+        background: linear-gradient(135deg, #c0392b, #a93226);
+        transform: translateY(-2px);
+        color: white;
+        text-decoration: none;
+    }
+
+    .btn-tasks {
+        background: linear-gradient(135deg, #9b59b6, #8e44ad);
+        color: white;
+    }
+
+    .btn-tasks:hover {
+        background: linear-gradient(135deg, #8e44ad, #7d3c98);
+        transform: translateY(-2px);
+        color: white;
+        text-decoration: none;
+    }
+
+    .btn-details {
+        background: linear-gradient(135deg, #1abc9c, #16a085);
+        color: white;
+    }
+
+    .btn-details:hover {
+        background: linear-gradient(135deg, #16a085, #138d75);
+        transform: translateY(-2px);
+        color: white;
+        text-decoration: none;
+    }
+
+    .fade-in {
+        animation: fadeIn 0.6s ease-out;
+    }
+
+    keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
         }
-    </tbody>
-</table>
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .no-courses {
+        text-align: center;
+        padding: 60px 20px;
+        color: #7f8c8d;
+    }
+
+    .no-courses i {
+        font-size: 4rem;
+        margin-bottom: 20px;
+        color: #bdc3c7;
+    }
+
+    .no-courses h3 {
+        margin-bottom: 10px;
+        color: #95a5a6;
+    }
+
+    media (max-width: 768px) {
+        .header h1 {
+            font-size: 2rem;
+        }
+
+        .courses-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .controls-section {
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        .search-container {
+            max-width: none;
+        }
+    }
+
+    media (max-width: 576px) {
+        .dashboard-container {
+            padding: 10px;
+        }
+
+        .header {
+            padding: 20px;
+        }
+
+        .courses-section {
+            padding: 20px;
+        }
+
+        .course-card {
+            padding: 20px;
+        }
+    }
+</style>
+
+<div class="dashboard-container">
+    <div class="header-section">
+        <div class="header">
+            <h1>Courses Management</h1>
+            <p>Task and Lecture Management System</p>
+        </div>
+
+        <div class="controls-section">
+            @if (User.IsInRole(Roles.Admin) || User.IsInRole(Roles.SuperAdmin))
+            {
+                <div class="search-container">
+                    <form asp-action="Search" method="get">
+                        <input type="text" name="searchString" class="search-input" placeholder="🔍 Search courses..." />
+                    </form>
+                </div>
+
+                <a class="btn-create" asp-action="Create">➕ Create New Course</a>
+            }
+            else
+            {
+                <div class="search-container">
+                    <form asp-action="Search" method="get">
+                        <input type="text" name="searchString" class="search-input" placeholder="🔍 Search courses..." />
+                    </form>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="courses-section">
+        @if (Model != null && Model.Any())
+        {
+            <div class="courses-grid">
+                @foreach (var item in Model)
+                {
+                    <div class="course-card fade-in">
+                        <div class="course-header">
+                            <div class="course-icon">📚</div>
+                            <div class="course-info">
+                                <h5>@item.CourseName</h5>
+                                <h6 class="course-professor">👨‍🏫 Professor: @(item.Professor?.UserName ?? "Not Assigned")</h6>
+                            </div>
+                        </div>
+
+                        <div class="course-actions">
+                            <a class="btn btn-lectures"
+                               asp-action="Index"
+                               asp-controller="Lectures"
+                               asp-route-course="@item.CourseCode">
+                                📚 View Lectures
+                            </a>
+
+                            @if (User.IsInRole(Roles.Manger) || User.IsInRole(Roles.Admin) || User.IsInRole(Roles.SuperAdmin))
+                            {
+                                <a class="btn btn-tasks"
+                                   asp-controller="AssignedTasks"
+                                   asp-action="TasksByCourse"
+                                   asp-route-courseId="@item.CourseCode">
+                                    📝 Manage Tasks
+                                </a>
+
+                                <a class="btn btn-details" asp-action="Details" asp-route-id="@item.CourseCode">
+                                    🔍 View Details
+                                </a>
+                            }
+
+                            @if (User.IsInRole(Roles.Admin) || User.IsInRole(Roles.SuperAdmin))
+                            {
+                                <a class="btn btn-edit" asp-action="Edit" asp-route-id="@item.CourseCode">
+                                    ✏️ Edit Course
+                                </a>
+
+                                <a class="btn btn-delete"
+                                   asp-action="Delete"
+                                   asp-route-id="@item.CourseCode"
+                                   onclick="return confirm('Are you sure you want to delete this course?')">
+                                    🗑️ Delete Course
+                                </a>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="no-courses">
+                <i>📚</i>
+                <h3>No Courses Available</h3>
+                <p>No courses found in the system</p>
+                @if (User.IsInRole(Roles.Admin) || User.IsInRole(Roles.SuperAdmin))
+                {
+                    <a class="btn btn-create" asp-action="Create" style="margin-top: 20px; display: inline-block;">
+                        ➕ Add First Course
+                    </a>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // إضافة تأثير التحميل التدريجي للبطاقات
+        const courseCards = document.querySelectorAll('.course-card');
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        courseCards.forEach((card, index) => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = `all 0.6s ease-out ${index * 0.1}s`;
+            observer.observe(card);
+        });
+
+        // تحسين تأثيرات الهوفر
+        courseCards.forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-8px) scale(1.02)';
+            });
+
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(-8px) scale(1)';
+            });
+        });
+
+        // تحسين البحث مع تأثيرات بصرية
+        const searchInput = document.querySelector('.search-input');
+        if (searchInput) {
+            searchInput.addEventListener('focus', function() {
+                this.parentElement.style.transform = 'scale(1.02)';
+            });
+
+            searchInput.addEventListener('blur', function() {
+                this.parentElement.style.transform = 'scale(1)';
+            });
+        }
+    });
+</script>

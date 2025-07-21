@@ -1,0 +1,5 @@
+DESKTOP-TK491CJ
+
+DESKTOP-TK491CJ\youss
+
+Server=localhost;Database=master;Trusted_Connection=True;

@@ -7,12 +7,22 @@
 <h1>Courses Registration</h1>
 
 <p>
-    @if (!(User.IsInRole(Roles.SuperAdmin) || User.IsInRole(Roles.Admin) || User.IsInRole(Roles.Manger)))
+    @if (User.IsInRole(Roles.Admin) || User.IsInRole(Roles.SuperAdmin))
     {
         <a class=" btn btn-primary mt-4" asp-action="Create">Create New</a>
 
     }
 </p>
+@if (User.IsInRole(Roles.Admin) || User.IsInRole(Roles.SuperAdmin))
+{
+    <form asp-action="SearchByStudent" method="get" class="form-inline mb-3">
+        <input type="text" name="searchString" class="form-control mr-2" placeholder="Search by student name" />
+        <button type="submit" class="btn btn-primary">Search</button>
+        <a href="/CoursesRegistration" class="btn btn-secondary ml-2">Reset</a>
+    </form>
+}
+
+
 <table class="table">
     <thead>
         <tr>

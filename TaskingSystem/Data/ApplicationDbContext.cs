@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using TaskingSystem.Controllers;
 using TaskingSystem.Models;
 
 namespace TaskingSystem.Data
@@ -10,8 +11,12 @@ namespace TaskingSystem.Data
         public DbSet<AssignedTask> AssignedTasks { get; set; }
         public DbSet<AssignmentHeadLine> AssignmentHeadLines { get; set; }
         public DbSet<Course> Courses { get; set; }
+        public DbSet<lecture> lectures { get; set; }
         public DbSet<StudentsCourses> StudentsCourses { get; set; }
         public DbSet<Theme> Themes { get; set; }
+        public DbSet<StudentsCourses> StudentCourses { get; set; }
+
+
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)

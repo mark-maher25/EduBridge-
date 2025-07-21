@@ -17,331 +17,353 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TaskingSystem
 build_property.RootNamespace = TaskingSystem
-build_property.ProjectDir = E:\Windows\Underway\Project\TaskingSystem\TaskingSystem\
+build_property.ProjectDir = C:\Users\D E L L\Desktop\ah\EduBridge\EduBridge\TaskingSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Windows\Underway\Project\TaskingSystem\TaskingSystem
+build_property.MSBuildProjectDirectory = C:\Users\D E L L\Desktop\ah\EduBridge\EduBridge\TaskingSystem
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Lockout.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/Error.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/AssignedTasks/Create.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/AssignedTasks/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWduZWRUYXNrc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/AssignedTasks/Delete.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/AssignedTasks/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWduZWRUYXNrc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/AssignedTasks/Details.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/AssignedTasks/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWduZWRUYXNrc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/AssignedTasks/Edit.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/AssignedTasks/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWduZWRUYXNrc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/AssignedTasks/Index.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/AssignedTasks/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWduZWRUYXNrc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/AssignedTasks/_IndexForm.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/AssignedTasks/_IndexForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWduZWRUYXNrc1xfSW5kZXhGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/AssignmentHeadLines/Create.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/AssignmentHeadLines/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudEhlYWRMaW5lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/AssignmentHeadLines/Delete.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/AssignmentHeadLines/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudEhlYWRMaW5lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/AssignmentHeadLines/Details.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/AssignmentHeadLines/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudEhlYWRMaW5lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/AssignmentHeadLines/Edit.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/AssignmentHeadLines/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudEhlYWRMaW5lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/AssignmentHeadLines/Index.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/AssignmentHeadLines/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudEhlYWRMaW5lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/CoursesRegistration/Create.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/CoursesRegistration/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1JlZ2lzdHJhdGlvblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/CoursesRegistration/Delete.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/CoursesRegistration/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1JlZ2lzdHJhdGlvblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/CoursesRegistration/Details.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/CoursesRegistration/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1JlZ2lzdHJhdGlvblxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/CoursesRegistration/Edit.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/CoursesRegistration/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1JlZ2lzdHJhdGlvblxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/CoursesRegistration/Index.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/CoursesRegistration/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1JlZ2lzdHJhdGlvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Courses/Create.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Courses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Courses/Delete.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Courses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Courses/Details.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Courses/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Courses/Edit.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Courses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Courses/Index.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Courses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Home/Index.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Home/Privacy.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Roles/Index.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/lectures/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGVjdHVyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/lectures/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGVjdHVyZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/lectures/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGVjdHVyZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/lectures/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGVjdHVyZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/lectures/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGVjdHVyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Roles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Roles/_RoleForm.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Roles/_RoleForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcX1JvbGVGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Shared/Error.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Themes/Create.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Themes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Themes/Delete.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Themes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Themes/Details.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Themes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Themes/Edit.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Themes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Themes/Index.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Themes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Users/Add.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Users/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Users/Edit.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Users/Index.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Users/ManageRoles.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Users/ManageRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTWFuYWdlUm9sZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/_ViewImports.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/_ViewStart.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Windows/Underway/Project/TaskingSystem/TaskingSystem/Views/Shared/_Layout.cshtml]
+[C:/Users/D E L L/Desktop/ah/EduBridge/EduBridge/TaskingSystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5blxt3dhql

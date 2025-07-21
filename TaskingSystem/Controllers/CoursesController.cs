@@ -8,7 +8,7 @@ using TaskingSystem.Models;
 
 namespace TaskingSystem.Controllers
 {
-    [Authorize(Roles = $"{Roles.SuperAdmin},{Roles.Admin}")]
+    [Authorize]
     public class CoursesController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -24,9 +24,43 @@ namespace TaskingSystem.Controllers
         // GET: Courses
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Courses.Include(c => c.Professor);
-            return View(await applicationDbContext.ToListAsync());
+            var userId = await _context.Users.Where(a => a.UserName == User.Identity.Name).Select(a => a.Id).FirstOrDefaultAsync();
+
+            if (User.IsInRole(Roles.SuperAdmin) || User.IsInRole(Roles.Admin))
+            {
+                var applicationDbContext1 = _context.Courses.Include(c => c.Professor);
+                return View(await applicationDbContext1.ToListAsync());
+            }
+            else if (User.IsInRole(Roles.Manger))
+            {
+
+                var applicationDbContext2 = _context.Courses.Where(a => a.ProfessorId == userId).Include(c => c.Professor);
+                return View(await applicationDbContext2.ToListAsync());
+            }
+            else
+            {
+                var applicationDbContext3 = _context.StudentsCourses
+                            .Include(sc => sc.Course)
+                            .ThenInclude(p => p.Professor)
+                            .Where(sc => sc.StudentId == userId)
+                            .Select(sc => sc.Course);
+
+                return View(await applicationDbContext3.ToListAsync());
+            }
+
         }
+        public async Task<IActionResult> Search(string searchString)
+        {
+            var courses = _context.Courses.Include(c => c.Professor).AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                courses = courses.Where(c => c.CourseName.Contains(searchString));
+            }
+
+            return View("Index", await courses.ToListAsync());
+        }
+
 
         // GET: Courses/Details/5
         public async Task<IActionResult> Details(string id)

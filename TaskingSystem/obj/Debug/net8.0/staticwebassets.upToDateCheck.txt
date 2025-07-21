@@ -1,0 +1,130 @@
+wwwroot\AssignmentFiles\12_944e.PNG
+wwwroot\AssignmentFiles\32221-8-3d-image_c1c3.png
+wwwroot\AssignmentFiles\Ans-Midterm_IS_54c5.pdf
+wwwroot\AssignmentFiles\FinalDocumentation-1_34d5.pdf
+wwwroot\AssignmentFiles\FinalDocumentation-1_b643.pdf
+wwwroot\AssignmentFiles\Homework 1_cd91.pdf
+wwwroot\AssignmentFiles\Homework 1_d4d0.pdf
+wwwroot\AssignmentFiles\Homework 1_e474.pdf
+wwwroot\AssignmentFiles\Operation Research Ch.1_f62c.pdf
+wwwroot\AssignmentFiles\Screenshot (19)_30af.png
+wwwroot\AssignmentFiles\محاضرات_3d52.pdf
+wwwroot\css\animate.css
+wwwroot\css\bootstrap.min (1).css
+wwwroot\css\bootstrap.min (10).css
+wwwroot\css\bootstrap.min (11).css
+wwwroot\css\bootstrap.min (12).css
+wwwroot\css\bootstrap.min (13).css
+wwwroot\css\bootstrap.min (14).css
+wwwroot\css\bootstrap.min (15).css
+wwwroot\css\bootstrap.min (16).css
+wwwroot\css\bootstrap.min (17).css
+wwwroot\css\bootstrap.min (18).css
+wwwroot\css\bootstrap.min (19).css
+wwwroot\css\bootstrap.min (2).css
+wwwroot\css\bootstrap.min (20).css
+wwwroot\css\bootstrap.min (21).css
+wwwroot\css\bootstrap.min (22).css
+wwwroot\css\bootstrap.min (23).css
+wwwroot\css\bootstrap.min (24).css
+wwwroot\css\bootstrap.min (25).css
+wwwroot\css\bootstrap.min (26).css
+wwwroot\css\bootstrap.min (3).css
+wwwroot\css\bootstrap.min (4).css
+wwwroot\css\bootstrap.min (5).css
+wwwroot\css\bootstrap.min (6).css
+wwwroot\css\bootstrap.min (7).css
+wwwroot\css\bootstrap.min (8).css
+wwwroot\css\bootstrap.min (9).css
+wwwroot\css\bootstrap.min.css
+wwwroot\css\font-awesome.min.css
+wwwroot\css\main-1.css
+wwwroot\css\site.css
+wwwroot\css\style.css
+wwwroot\favicon.ico
+wwwroot\files\exam-schedule.pdf
+wwwroot\files\lecture-schedule.pdf
+wwwroot\images\avatar-male.jpg
+wwwroot\images\Congratulations, Class of 2025!.png
+wwwroot\images\illustration-1.webp
+wwwroot\images\img-01.png
+wwwroot\images\logo.png
+wwwroot\images\logo1.png
+wwwroot\images\Tasking-Production.png
+wwwroot\images\Tasking.png
+wwwroot\js\bootbox.js\bootbox.min.js
+wwwroot\js\bootstrap.min.js
+wwwroot\js\jquery-3.2.1.min.js
+wwwroot\js\main.js
+wwwroot\js\popper.js
+wwwroot\js\select2.min.js
+wwwroot\js\site.js
+wwwroot\js\tilt.jquery.min.js
+wwwroot\lectures\Ans-Midterm_IS_7f95.pdf
+wwwroot\lectures\chap1-3_e6ea.pdf
+wwwroot\lectures\E-Commerce System – UI Presentation_4fad.pdf
+wwwroot\lectures\exam-schedule_910b.pdf
+wwwroot\lectures\FinalDocumentation-1_499b.pdf
+wwwroot\lectures\IS-Lec1_30b8.pdf
+wwwroot\lectures\Operation Research Ch.3_b3a1.pdf
+wwwroot\lectures\SQL_cfcf.txt
+wwwroot\lectures\Youssef Mohamed-Backend (.NET)_b805.pdf
+wwwroot\lectures\محاضرات_c9dc.pdf
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\StaticHTML\MailTemplate.html

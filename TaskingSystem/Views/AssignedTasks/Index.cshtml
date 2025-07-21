@@ -6,11 +6,51 @@
 
 <h1>Assignment Taskes</h1>
 
-<p>
-    <a class="btn btn-primary mt-4" asp-action="Create">Create New</a>
-</p>
+@if (User.IsInRole(Roles.User))
+{
+    <p>
+        <a class="btn btn-primary mt-4" asp-action="Create">Create New</a>
+    </p>
+}
 
-<partial name="_IndexForm" model="new AssignmentSearchViewModel()" />
+@if (User.IsInRole(Roles.Manger))
+{
+    
+
+<form method="get" asp-action="TasksByCourse">
+    <input type="hidden" name="courseId" value="@ViewBag.SelectedCourse" />
+
+    <div class="form-group">
+        <label for="assignmentHeadLineId">Filter by Assignment Head Line:</label>
+        <select class="form-control" id="assignmentHeadLineId" name="assignmentHeadLineId" onchange="this.form.submit()">
+            <option value="">-- All --</option>
+            @if (ViewBag.HeadLines != null)
+            {
+                foreach (var headLine in ViewBag.HeadLines)
+                {
+                    bool isSelected = (ViewBag.SelectedAssignmentId != null && headLine.Value == ViewBag.SelectedAssignmentId.ToString());
+
+                    if (isSelected)
+                    {
+                        <option value="@headLine.Value" selected="selected">@headLine.Text</option>
+                    }
+                    else
+                    {
+                        <option value="@headLine.Value">@headLine.Text</option>
+                    }
+                }
+            }
+        </select>
+    </div>
+</form>
+}
+
+
+
+
+
+
+
 <br />
 <table class="table">
     <thead>

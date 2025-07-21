@@ -21,9 +21,22 @@ namespace TaskingSystem.Controllers
         // GET: AssignmentHeadLines
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.AssignmentHeadLines.Include(a => a.Course).Include(a => a.Professor);
-            return View(await applicationDbContext.ToListAsync());
+            var userId = _userManager.GetUserId(User);
+
+            IQueryable<AssignmentHeadLine> assignments = _context.AssignmentHeadLines
+                .Include(a => a.Course)
+                .Include(a => a.Professor);
+
+            // لو المستخدم مش سوبر أدمن، فلتر بالـ ProfessorId
+            if (!User.IsInRole(Roles.SuperAdmin))
+            {
+                assignments = assignments.Where(a => a.ProfessorId == userId);
+            }
+
+            return View(await assignments.ToListAsync());
         }
+
+
 
         // GET: AssignmentHeadLines/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -48,16 +61,37 @@ namespace TaskingSystem.Controllers
         // GET: AssignmentHeadLines/Create
         public async Task<IActionResult> Create()
         {
-            var usersWithPermission = await _userManager.GetUsersInRoleAsync(Roles.Manger);
-            // Then get a list of the ids of these users
-            var idsWithPermission = usersWithPermission.Select(u => u.Id);
-            // Now get the users in our database with the same ids
-            var users = await _context.Users.Where(u => idsWithPermission.Contains(u.Id)).ToListAsync();
+            if (User.IsInRole(Roles.SuperAdmin))
+            {
+                // لو سوبر أدمن، يختار من كل الدكاترة
+                var professors = await _userManager.GetUsersInRoleAsync(Roles.Manger);
+                ViewData["ProfessorId"] = new SelectList(professors, "Id", "UserName");
 
-            ViewData["CourseCode"] = new SelectList(_context.Courses, "CourseCode", "CourseName");
-            ViewData["ProfessorId"] = new SelectList(users, "Id", "UserName");
+                // عرض كل الكورسات
+                ViewData["CourseCode"] = new SelectList(_context.Courses, "CourseCode", "CourseName");
+            }
+            else
+            {
+                // لو دكتور، هنعرضه تلقائي
+                var currentUserId = _userManager.GetUserId(User);
+                var currentProfessor = await _context.Users.FindAsync(currentUserId);
+
+                ViewData["ProfessorName"] = currentProfessor?.UserName ?? "Unknown";
+                ViewData["ProfessorId"] = currentUserId;
+
+                // فلترة الكورسات الخاصة بالدكتور فقط
+                var professorCourses = await _context.Courses
+                    .Where(c => c.ProfessorId == currentUserId)
+                    .ToListAsync();
+
+                ViewData["CourseCode"] = new SelectList(professorCourses, "CourseCode", "CourseName");
+            }
+
             return View();
         }
+
+
+
 
         // POST: AssignmentHeadLines/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
