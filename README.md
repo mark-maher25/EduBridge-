@@ -1,60 +1,53 @@
-<h1 align="center" id="title">Tasking System</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/SQL%20Server-2019-yellow" />
-  <img src="https://img.shields.io/badge/ASP.NetCore-8.0-%23790c91" />
-  <a href="#" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-</p>
-<p align="center"><img src="https://github.com/JoeGitHubPro/TaskingSystem/blob/master/TaskingSystem/wwwroot/images/Tasking-Production.png" alt="project-image"></p>
+# EduBridge 🎓
 
-<p id="description">MVC .Net 8 Core </p>
+**EduBridge** is a web-based graduation project that facilitates effective communication and academic management between university instructors and students.  
+The system provides dedicated interfaces for instructors, students, and an admin user to manage the entire process.
 
-  
-  
-<h2>🧐 Features</h2>
+---
 
-Here're some of the project's best features:
+## 🚀 Key Features
 
-*   Identity with Users and Roles management
-*   Authentication and Authorization with Secure Lockout
-*   Full Data Profile management
-*   Data Auto Migration With Default Settings
+- 🧑‍🏫 **Instructor Panel** – Upload lectures and assignments, manage student submissions, and assign grades.
+- 🎓 **Student Portal** – View and download lectures, submit assignments, and track grades.
+- 🛠️ **Admin Dashboard** – Manage users (students & instructors), control courses, and oversee uploaded content.
 
-<h2>🛠️ Installation Steps:</h2>
+---
 
-<p>1. Install release</p>
+## 🧰 Tech Stack
 
-```
-https://github.com/JoeGitHubPro/TaskingSystem/releases/tag/V2.0.0
-```
+| Layer     | Technology               |
+|-----------|--------------------------|
+| Frontend  | HTML, CSS, Bootstrap     |
+| Backend   | ASP.NET MVC, C#          |
+| Database  | SQL Server               |
+| ORM       | Entity Framework         |
+| Querying  | LINQ                     |
 
-<p>2. Go Instruction on this release</p>
+---
 
-<p>3. Run Application</p>
+## 📸 Screenshots
 
-<h2>🍰 Contribution Guidelines:</h2>
+> _Screenshots will be added soon to showcase the platform's UI and features._
 
-To Contribution in this project fork it and make pull request easily sense we are welcome to all Contributing
+---
 
-  
-  
-<h2>💻 Built with</h2>
+## 👨‍💻 Project Role
 
-Technologies used in the project:
+- **Mark Maher Aziz Akaldious**  
+  *Full Stack Developer (Frontend & Backend)*  
+  Faculty of Science – Computer Science Department  
+  Suez Canal University | Class of 2025
 
-*   C#
-*   .Net Core MVC
-*   Sql server
-*   HTML
-*   CSS
-*   JS
-*   Bootstrap
+---
 
-<h2>🛡️ License:</h2>
+## 📝 About the Project
 
-This project is licensed under the MIT
+This project was developed as part of the graduation requirements for the Computer Science program.  
+EduBridge allows for seamless academic interaction between instructors and students through structured content management, assignment submission, and grading features.  
+An admin user can manage platform content and users through a secure and user-friendly dashboard.
+
+---
+
+## 📌 Disclaimer
+
+> **EduBridge** is an academic project built solely for educational and demonstration purposes.
