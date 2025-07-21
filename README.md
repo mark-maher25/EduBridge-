@@ -23,11 +23,6 @@ The system provides dedicated interfaces for instructors, students, and an admin
 | ORM       | Entity Framework         |
 | Querying  | LINQ                     |
 
----
-
-## 📸 Screenshots
-
-> _Screenshots will be added soon to showcase the platform's UI and features._
 
 ---
 
